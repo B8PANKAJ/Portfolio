@@ -133,6 +133,22 @@ section {
   background-color: black;
   color: white;
 }
+.about {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.about .bio {
+  width: 300px;
+}
+.about .bio h1{
+  font-size: 2rem;
+
+}
+.about img {
+  width: 300px;
+  height: auto;
+}
 .projects h1 {
   margin-left: 24px;
 }
@@ -178,7 +194,6 @@ section {
   margin-top: -4px;
   margin-right: -4px;
   color: white;
-  font-family: courier, sans;
 }
 
 .card {
@@ -310,6 +325,7 @@ td {
   font-size: 1rem;
   padding-left: 22px;
   padding-top: 7px;
+  overflow: hidden;
 }
 .form textarea {
   border-radius: 16px;
